@@ -8,25 +8,59 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  return[
+  "Adele",
+  "Beyoncé",
+  "Cardi B",
+  "Lady Gaga",
+  "Nicki Minaj",
+  "Rihanna"
+].downcase.first
 end
+first_student_by_index
 
 def fourth_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  return[
+  "Adele",
+  "Beyoncé",
+  "Cardi B",
+  "Lady Gaga",
+  "Nicki Minaj",
+  "Rihanna"
+].downcase[4]
 end
+fourth_student_by_index
 
 def last_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  return[
+  "Adele",
+  "Beyoncé",
+  "Cardi B",
+  "Lady Gaga",
+  "Nicki Minaj",
+  "Rihanna"
+].downcase.last
 end
+last_student_by_index
 
 def first_student_by_method
-  # Write a solution that returns the first student using the built in .first method
+  first_student_by_index.first
 end
+first_student_by_index
 
 def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+  last_student_by_index.last
 end
+last_student_by_method
 
 def first_second_and_third_students
-  # Write a solution that returns the first, second and third students
+  return[
+  "Adele",
+  "Beyoncé",
+  "Cardi B",
+  "Lady Gaga",
+  "Nicki Minaj",
+  "Rihanna"
+].downcase[0, 1, 2]
 end
+first_second_and_third_students
